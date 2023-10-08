@@ -4,20 +4,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portofolio | Sari Risk</title>
+    <script src="https://unpkg.com/typeit@@{TYPEIT_VERSION}/dist/index.umd.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
   
     <!-- CSS -->
-    
-    <link rel="stylesheet" href="style.css"
+    <script src="script.js"></script>
+    </script>
+    <link rel="stylesheet" href="style.css"/>
 
     <!-- END CSS -->
-
-
 </head>
-
+<body id="Home">
     <!--navbar-->
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Sari Risky</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,34 +26,169 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#About">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+  </section>
     <!--navbar end-->
 
     <!--Jumbotron-->
     <section class="jumbotron text-center">
-        <img src="img/... alt="/>
+        <img src="img/risky.jpeg" alt="profil" width="200"
+         class="rounded-circle img-thumbnail"/>
         <h1 class="display-4">Sari Risky Hidayatulloh</h1>
-        <p class="lead"></p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </section>
+        <p class="lead">  Dengan kombinasi kecintaan saya pada fotografi dan coding,<br>
+          saya berupaya menciptakan pengalaman yang imersif dan inovatif.<br>
+          Saya percaya bahwa setiap gambar dan setiap baris kode<br>
+           berpotensi mengubah cara kita melihat dan berinteraksi dengan dunia di sekitar kita.
+       </p>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" 
+          fill-opacity="1" d="M0,96L60,133.3C120,171,240,245,360,256C480,267
+          ,600,213,720,192C840,171,960,181,1080,208C1200,235,1320,277,1380,298.7L1440,
+          320L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,
+          320C240,320,120,320,60,320L0,320Z"></path></svg>
+      
+        </section>
 
     <!--Jumbotron end-->
+
+    <!--About-->
+
+      <section id="About">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2> About Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4 mb-3">
+          <p>
+            Saya seorang pecinta fotografi yang menemukan keindahan dalam setiap momen dan cerita yang dapat diabadikan melalui lensa kamera. Ketertarikan saya pada fotografi telah membimbing saya untuk mengeksplorasi berbagai gaya, mulai dari potret hingga lanskap, dengan fokus pada menangkap esensi dan emosi.
+          </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <p>
+            Tidak hanya pecinta seni visual, saya juga penggemar kode yang menyukai keajaiban di balik layar. Coding bagi saya bukan sekedar sekumpulan perintah, namun sebuah bahasa yang membuka pintu menuju kreativitas tanpa batas. Pengalaman saya dalam pengembangan perangkat lunak telah memperkaya pemahaman saya tentang bagaimana teknologi dapat membentuk dan memperkaya cara kita berinteraksi dengan dunia.
+            </p> 
+            </div>
+        </div>\
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,160L34.3,176C68.6,192,137,224,206,224C274.3,224,343,192,411,176C480,160,549,160,617,138.7C685.7,117,754,75,823,74.7C891.4,75,960,117,1029,117.3C1097.1,117,1166,75,1234,58.7C1302.9,43,1371,53,1406,58.7L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+      </section>
+    <!--About END-->
+      
+    <!--Project-->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/gallery/1.jpeg" class="card-img-top" alt="Gallery">
+            <div class="card-body">
+              <p class="card-text"> 6 - Juli - 2023. <br>
+              Ku Kira Macha Latte, Ternyata Macha Depan. <br><br>
+
+            </p>
+                
+              </div>
+          </div>
+        </div>
+    
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/gallery/2.jpeg" class="card-img-top" alt="Gallery">
+            <div class="card-body">
+              <p class="card-text">22 - September - 2023.<br>
+                Terlalu Sibuk Dengan Dunia Hingga Lupa Cara Bersyukur
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/gallery/3.jpeg" class="card-img-top" alt="Gallery">
+            <div class="card-body">
+              <p class="card-text">23 - September - 2023.<br>
+                Kadang Harus Tega Biar Lega<br><br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" 
+        fill-opacity="1" d="M0,96L60,133.3C120,171,240,245,360,256C480,267
+        ,600,213,720,192C840,171,960,181,1080,208C1200,235,1320,277,1380,298.7L1440,
+        320L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,
+        320C240,320,120,320,60,320L0,320Z"></path></svg>
+
+    </section>
+    
+    <!--Project End-->
+
+    <!--kontak-->
+    <section id="contact">
+    <div class="container">
+      <div class="row text-center mb-3 p-3">
+        <div class="col">
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6 ">
+          <form>
+            <div class="mb-3">
+              <label for="Name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name">
+              <div id="name" class="form-text"></div>
+              </div>
+            <div class="mb-3">
+              <label for="Email1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="email">
+              <div id="email" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+          </div>
+          </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,128L60,154.7C120,181,240,235,360,256C480,277,600,267,720,250.7C840,235,960,213,1080,218.7C1200,224,1320,256,1380,272L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    </div>
+  </section>
+    <!--kontak end-->
+
+    <!--footer-->
+    <footer class="bg-primary text-white text-center">
+      <p>CREATED BY <a href="https://instagram.com/its_me.sarii"/ class="text-white fw-bold"> Sari Risky</a> </p>
+    </footer>
+    <!--footer end-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
